@@ -1,8 +1,46 @@
 body {
-    margin: 0px; 
+    margin: 0px;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 30px 0px 30px;
+    overflow: hidden;
+    background-color:white;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  li a:hover{
+      text-decoration: underline;
+  }
+.nav-right{
+      float:right;
+  }
 .google-logo{
     -webkit-user-select: none;
     display: block;
     margin: auto;
+    padding: 100px;
+}
+#sign-in{
+    background-color: #4285F4;
+    color: #FFFFFF;
+    border-radius: 2px;
+}
+#apps-icon{
+    width: 15px;
+    height: 15px;
+    opacity: 0.6;
 }
