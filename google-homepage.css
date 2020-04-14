@@ -106,3 +106,12 @@ border: 1px solid lightgray;
     height: 36px;
     min-width: 54px;
 }
+.page-footer{
+    position: fixed;
+    bottom: 0px;
+    width: 95%;
+    border: 1px solid lightgrey;
+}
+.footer-right{
+   float:right;
+}
